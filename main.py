@@ -5,7 +5,7 @@ from nmap import *
 from robots_txt import *
 from whois import *
 
-ROOT_DIR = 'targets'
+ROOT_DIR = 'instances'
 create_dir(ROOT_DIR)
 
 def gather_info(name, url):
